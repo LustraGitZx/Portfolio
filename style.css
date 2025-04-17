@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100..900&display=swap');
+*{
+    font-family: "Exo 2", sans-serif;
+    color: #2f2731;
+    text-align: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.block{
+    max-width: 800px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.first-block{
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.header{
+    font-size: 64px;
+    font-weight: 900;
+    padding-bottom: 30px;
+    color: #ef5d60;
+}
+
+.text{
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 20px;
+    display: block;
+}
+
+.skill_list{
+    list-style-type: none;	
+    width: 100%;
+    text-align: center;
+}
+.skill_list ul{
+    font-weight: bold;
+    font-size: 32px;
+    padding-bottom: 10px;
+
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    font-weight: 900;
+    border-radius: 22px;
+    color: #ef5d60;
+    border: 5px solid #ef5d60;
+    padding: 10px 50px;
+    font-size: 32px;
+    text-decoration: none;
+    margin-top: 20px;
+    align-self: center;
+}
+
+.portfolio img, .text{
+    margin-bottom: 30px;
+}
+
+.portfolio .header{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.sep{
+    color: #2f2731;
+    text-align: center;
+    font-size: 64px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+@media (max-width: 426px) {
+    body {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .header{
+        font-size: 48px;
+        padding-bottom: 35px;
+    }
+
+    .text{font-size: 24px;}
+
+    .skill_list{font-size: 24px;}
+
+    .button{font-size: 24px;}
+}
+
+.space{
+    padding-bottom: 120px;
+}
